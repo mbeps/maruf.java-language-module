@@ -3,11 +3,19 @@
     "displayName": "Java Extension Pack",
     "description": "Includes only important Java extensions and nothing else. ",
     "version": "0.0.1",
+    "publisher": "Maruf",
     "engines": {
         "vscode": "^1.67.0"
     },
     "categories": [
         "Extension Packs"
+    ],
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/mbeps/java-extension-pack"
+	},
+    "activationEvents": [
+        "onLanguage:python"
     ],
     "extensionPack": [
         "redhat.java",
