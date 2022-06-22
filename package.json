@@ -1,6 +1,6 @@
 {
-    "name": "java-extension-pack",
-    "displayName": "Java Extension Pack",
+    "name": "java-language-module",
+    "displayName": "Java Language Module",
     "description": "Includes only important Java extensions and nothing else. ",
     "version": "0.0.1",
     "publisher": "Maruf",
