@@ -2,7 +2,7 @@
     "name": "java-language-module",
     "displayName": "Java Language Module",
     "description": "Includes only important Java extensions and nothing else. ",
-    "version": "0.0.1",
+    "version": "2.0.0",
     "publisher": "Maruf",
     "engines": {
         "vscode": "^1.67.0"
@@ -11,19 +11,20 @@
         "Extension Packs"
     ],
     "repository": {
-		"type": "git",
-		"url": "https://github.com/mbeps/maruf.java-language-module"
-	},
+        "type": "git",
+        "url": "https://github.com/mbeps/maruf.java-language-module"
+    },
     "extensionPack": [
         "redhat.java",
-		"vscjava.vscode-java-debug",
-		"vscjava.vscode-java-dependency",
-		"vscjava.vscode-java-test",
-		"vscjava.vscode-maven",
-		"shengchen.vscode-checkstyle", 
-		"dhruv.maven-dependency-explorer", 
-
-        "vscjava.vscode-gradle", 
-		"naco-siren.gradle-language"
+        "vscjava.vscode-java-debug",
+        "vscjava.vscode-java-dependency",
+        "vscjava.vscode-java-test",
+        "vscjava.vscode-maven",
+        "shengchen.vscode-checkstyle",
+        "dhruv.maven-dependency-explorer",
+        "vscjava.vscode-lombok",
+        "dcortes92.FreeMarker",
+        "vscjava.vscode-gradle",
+        "naco-siren.gradle-language"
     ]
 }
